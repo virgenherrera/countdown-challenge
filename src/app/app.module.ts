@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TimeSquareComponent } from './components/time-square/time-square.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TimeSquareComponent
   ],
   imports: [
     BrowserModule
