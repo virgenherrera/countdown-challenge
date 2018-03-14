@@ -6,7 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
 	styleUrls: ['./time-square.component.css']
 })
 export class TimeSquareComponent implements OnInit {
-
 	data = {
 		number: null,
 		text: null,
@@ -20,7 +19,7 @@ export class TimeSquareComponent implements OnInit {
 
 	@Input()
 	set number(v: number) {
-		this.data.number = (v) ? v : null;
+		this.data.number = v;
 	}
 	get number(): number | null {
 		return this.data.number;

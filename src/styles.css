@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 50px;
+}
+
+.time-square:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.time-square {
+	float: left;
+	width: 15%;
+	margin: 15px 2% 15px 2%;
+
+	text-align: center;
+	border-radius: 7px 7px 7px 7px;
+	-moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border: 1px solid #A9A7B0;
+}
+
+.number-square {
+	margin-top: 7%;
+	margin-bottom: 0%;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+}
+
+.text-square {
+	margin-top: 1%;
+	margin-bottom: 7%;
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #A9A7B0;
+}
